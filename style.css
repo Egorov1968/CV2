@@ -263,6 +263,7 @@ table.bordered tbody tr:hover {
 
 /*Навигация*/
 ul.nav {
+	width: 100%;
 	margin: 0;
 	padding: 30px 0 0 0;
 	overflow: hidden;
@@ -272,7 +273,7 @@ ul.nav {
 ul.nav li {
 	float: left;
 	list-style: none;
-	padding: 0 0 0 35px;
+	padding: 0 0 0 18px;
 }
 
 ul.nav li a {
@@ -437,6 +438,10 @@ ul.rightNav li a:hover {
 .main img {
 	margin-right: 15px;
 	border: 10px solid #cfcfcf;
+}
+.main h4 {
+	margin-bottom: 24px;
+	font-size: 20px;
 }
 
 .museum-single img {
