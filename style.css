@@ -299,7 +299,7 @@ ul.nav li a:hover {
 /*Правая колонка*/
 .rightCol {
 	float: right;
-	margin-left: 42px;
+	margin-left: 24px;
 	width: 363px;
 }
 
@@ -360,10 +360,92 @@ ul.rightNav li a:hover {
 	overflow: hidden;
 }
 
+
+
+.head {
+	margin-bottom: 32px;
+	font-size: 32px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.museum-item {
+	padding: 24px;
+	margin-bottom: 20px;
+	background: url('images/museum/bg.jpg') center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.museum-item__name {
+	display: block;
+	margin-bottom: 24px;
+	color: #000;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 1.3;
+	text-decoration: none;
+	text-align: center;
+}
+.museum-item__name:hover {
+	text-decoration: underline;
+}
+.museum-item__box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.museum-item__thumb {
+	width: 52%;
+}
+.main .museum-item__thumb img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-right: 0;
+	border: none;
+}
+.museum-item__info {
+	width: 44%;
+}
+
+.museum-item__desc {
+	margin-bottom: 20px;
+	color: #000;
+	font-size: 15px;
+	line-height: 1.3;
+}
+.museum-item__more {
+	display: block;
+	width: 200px;
+	min-height: 32px;
+	background: #b6b2b3;
+	padding: 8px 8px 6px;
+	color: #d31f5a;
+	font-size: 24px;
+	line-height: 1.3;
+	text-align: center;
+	text-decoration: none;
+	transition: all .3s ease;
+}
+.museum-item__more:hover {
+	background: #d31f5a;
+	color: #b6b2b3;
+}
+
+
 .main img {
 	margin-right: 15px;
 	border: 10px solid #cfcfcf;
 }
+
+.museum-single img {
+	max-width: calc(100% - 30px);
+	height: auto;
+	margin: 0 auto 20px;
+}
+
+
 /*Подвал*/
 .footer {
 }
